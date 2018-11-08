@@ -31,8 +31,6 @@ def get_cont(addrs):
             f.write(name+':'+text+'\n'+'\n')
         time.sleep(1)
 
-
-
 def ys():
     url = 'http://www.casad.cas.cn/chnl/371/index.html'
     addrs = get_addr(url)
